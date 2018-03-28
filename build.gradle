@@ -1,0 +1,15 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.2.30'
+    id 'net.researchgate.release' version '2.6.0'
+}
+
+group 'komine'
+
+repositories {
+    mavenCentral()
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    compile 'org.jetbrains.kotlin:kotlin-stdlib'
+}
